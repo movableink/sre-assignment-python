@@ -34,13 +34,6 @@ The service requires the following environment variables:
 - `API_TOKEN`: Your API token for authentication with the Movable Ink GeoIP API. This is required for production use.
 - `PORT`: The port number for the service (default: 3000)
 
-Example configuration:
-```bash
-export API_URL="https://geoip.movableink.com"
-export API_TOKEN="your-token-here"
-export PORT=3000  # optional
-```
-
 ## Running the Service
 
 Start the service (don't forget to set your environment variables before starting):
